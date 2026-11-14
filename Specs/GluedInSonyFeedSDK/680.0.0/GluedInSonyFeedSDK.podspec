@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "15.0"
   s.ios.deployment_target = "15.0"
   s.swift_version = "5.1"
-  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInSony/GluedInSonyFeedSDK/682.0.0/GluedInFeedSDK.zip", :type => "zip", :sha256 => "d92998a94634af3cdb1de72df6f74a346e0544a5ae4c403719c57974dde035ba" }
+  s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInSony/GluedInSonyFeedSDK/682.0.0/GluedInFeedSDK.zip", :type => "zip", :sha256 => "e8595bdca19d71afeae9273ebc47a8a4d2d670d1e4ec488efecc033f1871bb4e" }
   s.vendored_frameworks = 'GluedInFeedSDK.xcframework'
   
   s.dependency 'GluedInSonyCoreSDK', '682.0.0'
