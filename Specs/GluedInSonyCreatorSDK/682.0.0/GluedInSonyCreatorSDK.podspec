@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source       = { :http => "https://dg824galpjzhq.cloudfront.net/GluedInSony/GluedInSonyCreatorSDK/682.0.0/GluedInCreatorSDK.zip", :type => "zip", :sha256 => "da94b672b9799b0713466b409b78da5c09a91e980e6eaaae6a779d10651480b1" }
   s.vendored_frameworks = 'GluedInCreatorSDK.xcframework'
   
-  s.dependency 'GluedInCoreSDK', '682.0.0'
+  s.dependency 'GluedInSonyCoreSDK', '682.0.0'
 
   s.xcconfig = {
     'ONLY_ACTIVE_ARCH' => 'YES',
